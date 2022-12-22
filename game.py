@@ -22,9 +22,9 @@ def display_rules(self):
 
 def display_gesture_chosen(self):
     print("Choose 0 for Rock", '\n' "Choose 1 for Paper", '\n' "Choose 2 for Scissors", '\n' "Choose 3 for Lizard", '\n' "Choose 4 for Spock")
-
-def game_phase(self):
     
+def game_phase(self):
+    pass
 
 def display_winner(self):
     pass
