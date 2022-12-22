@@ -8,6 +8,15 @@
 #Lizard eats Paper
 #Paper disproves Spock
 #Spock vaporizes Rock
-class player:
-    def __init__(self) -> None:
-        pass
+
+
+class Player:
+    def __init__(self, name) -> None:
+        self.name = name
+        self.score = 0
+
+    
+    def getsture_chosen(self, player):
+        gesture_list = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]  
+        player.gesture_chosen = input("Choose your gesture. ")
+        print()
