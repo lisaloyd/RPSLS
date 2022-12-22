@@ -1,4 +1,4 @@
-from human1 import Human1
+from ai import Human1
 from human2 import Human2
 
 
