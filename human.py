@@ -14,17 +14,29 @@ class Human(Player):
             print(count + 1, gesture)
             # print(count + 1)
 
-   
     def choose_gesture(self):
         print()
         self.choose = input("Choose a number from above list ")
         print()
-        if self.choose == [1, 2, 3, 4, 5]:
+        if self.choose == '1':
             print()
-            print(f"Player has chosen {self.choose}!")
+            print(f"Player has chosen {self.gesture_list[0]}!")
+        elif self.choose == '2':
+            print()
+            print(f"Player has chosen {self.gesture_list[1]}!")
+        elif self.choose == '3':
+            print()
+            print(f"Player has chosen {self.gesture_list[2]}!")
+        elif self.choose == '4':
+            print()
+            print(f"Player has chosen {self.gesture_list[3]}!")
+        elif self.choose == '5':
+            print()
+            print(f"Player has chosen {self.gesture_list[4]}")
         else:
-            print("That is not an option")
+            print("That is not an option. ")
 
+   
 
     
         #ask user for gesture from list above, store input into variable
