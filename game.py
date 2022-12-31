@@ -15,8 +15,7 @@ def run_game(self):
     pass
 
 def display_welcome(self):
-    print("Welcome to Rock, Paper, Scissors, Lizard, Spock!" "n/" "The best of three is the winner!" "n/" 
-    "Use the number keys to choose your gesture. ")
+    print("Welcome to Rock, Paper, Scissors, Lizard, Spock!" "n/" "The best of three is the winner!")
 
 def display_rules(self):
     print("Rock crushes Scissors",'\n' "Scissors cuts Paper", '\n' "Paper covers Rock", '\n' "Rock crushes Lizard", '\n' "Lizard poisons Spock", '\n'
@@ -28,11 +27,11 @@ def display_gesture_chosen(self):
 def game_phase(self):
     if self.human == self.ai:
          print("It's a tie!")
-    elif ((self.human == '1' and self.ai == '3') or (self.human == '3' and self.ai = '2') or
+    elif (self.human == '1' and self.ai == '3') or (self.human == '3' and self.ai = '2') or
          (self.human == '2' and self.ai == '1') or (self.human == '1' and self.ai == '4') or
          (self.human == '4' and self.ai == '5') or (self.human == '5' and self.ai == '3') or
          (self.human == '3' and self.ai == '4') or (self.human == '4' and self.ai == '2') or
-         (self.human == '2' and self.ai == '5') or (self.human == '5' and self.ai == '1')):
+         (self.human == '2' and self.ai == '5') or (self.human == '5' and self.ai == '1'):
         print("You won!") 
     else:
         print("Computer won!")
