@@ -11,3 +11,10 @@ class AI(Player):
         gesture = self.gesture_list
         print (f"{self.name} picked {gesture[int(self.computer_choice)]}")
 #sleep
+
+
+
+
+
+
+# user_input = input("Enter your choice by the number (rock[1], paper[2], scissors[3], Lizard [4], Spock[5]): ")
