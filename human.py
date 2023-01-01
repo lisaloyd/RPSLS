@@ -12,7 +12,7 @@ class Human(Player):
         for count in range(len(self.gesture_list)):
             gesture = self.gesture_list[count]
             print(count + 1, gesture)
-            # print(count + 1)
+           
 
     def choose_gesture(self):
         print()
