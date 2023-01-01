@@ -16,12 +16,4 @@ class Player:
         self.name = name
         self.score = 0
         self.gesture_list = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]  
-<<<<<<< HEAD
-        
-    def return_score(self):
-        return self.score
-   
-    
-=======
->>>>>>> 031d53ff3135521867255a711ad5cd289ea171ed
 
