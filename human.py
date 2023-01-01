@@ -12,7 +12,7 @@ class Human(Player):
         for count in range(len(self.gesture_list)):
             gesture = self.gesture_list[count]
             print(count + 1, gesture)
-            # print(count + 1)
+           
 
     def choose_gesture(self):
         print()
@@ -34,7 +34,9 @@ class Human(Player):
             print()
             print(f"Player has chosen {self.gesture_list[4]}")
         else:
-            print("That is not an option. ")
+            while self.choose != '1' or '2' or '3' or '4,' or '5':
+                print("That is not an option. ")
+                break
 
    
 

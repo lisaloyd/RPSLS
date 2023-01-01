@@ -15,21 +15,13 @@ class Player:
     def __init__(self, name) -> None:
         self.name = name
         self.score = 0
-        self.wins = 0
-        self.ties = 0
-        self.rounds = 0
         self.gesture_list = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]  
+<<<<<<< HEAD
         
     def return_score(self):
         return self.score
    
     
+=======
+>>>>>>> 031d53ff3135521867255a711ad5cd289ea171ed
 
-    
-
-        # player.gesture_chosen = input("Choose your gesture. ")
-        # print()
-
-#leave options for player to choose from for AI and Human
-#give score
-#make gesture to instance variable
