@@ -10,7 +10,12 @@ class Game:
         
         
 def run_game(self):
-    pass
+    self.display_welcome()
+    self.display_rules()
+    self.game_phase()
+    self.number_of_rounds()
+    self.return_score()
+    self.display_winner()
 
 def display_welcome(self):
     print("Welcome to Rock, Paper, Scissors, Lizard, Spock!" "n/" "The best of three is the winner!")

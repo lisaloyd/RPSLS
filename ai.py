@@ -12,12 +12,7 @@ class AI(Player):
         print (f"{self.name} picked {gesture[int(self.choose_gesture)]}")
 #sleep
 
-<<<<<<< HEAD
     
-=======
-    def return_score(self):
-        pass
->>>>>>> 031d53ff3135521867255a711ad5cd289ea171ed
 
 
 
