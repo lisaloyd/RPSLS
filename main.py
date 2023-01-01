@@ -1,5 +1,5 @@
 from game import Game
 
-game = Game()
+game = Game("Game")
 
-game.game_phase()
+game.run_game()
