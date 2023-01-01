@@ -12,8 +12,7 @@ class AI(Player):
         print (f"{self.name} picked {gesture[int(self.choose_gesture)]}")
 #sleep
 
-    def return_score(self):
-    return self.score
+    
 
 
 

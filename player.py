@@ -20,11 +20,10 @@ class Player:
         self.rounds = 0
         self.gesture_list = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]  
         
+    def return_score(self):
+        return self.score
+   
     
-    def number_of_rounds(self):
-    
-    def score(self):
-        pass
 
     
 
