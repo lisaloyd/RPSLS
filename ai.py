@@ -13,7 +13,7 @@ class AI(Player):
 #sleep
 
     def return_score(self):
-    return self.score
+        pass
 
 
 
