@@ -6,15 +6,14 @@ class AI(Player):
         super().__init__(name)
         
 
-    def computer_choice(self):
-        self.computer_choice = random.randint(0, 4)
+    def choose_gesture(self):
+        self.choose_gesture = random.randint(0, 4)
         gesture = self.gesture_list
-        print (f"{self.name} picked {gesture[int(self.computer_choice)]}")
+        print (f"{self.name} picked {gesture[int(self.choose_gesture)]}")
 #sleep
 
+    def return_score(self):
+    return self.score
 
 
 
-
-
-# user_input = input("Enter your choice by the number (rock[1], paper[2], scissors[3], Lizard [4], Spock[5]): ")
