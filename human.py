@@ -6,13 +6,10 @@ class Human(Player):
         super().__init__(name)
     
     def display_choices(self):
-        # for gesture in self.gesture_list:
-        #     print(gesture)
         print()
         for count in range(len(self.gesture_list)):
             gesture = self.gesture_list[count]
             print(count + 1, gesture)
-           
 
     def choose_gesture(self):
         print()
@@ -40,8 +37,3 @@ class Human(Player):
 
    
 
-    
-        #ask user for gesture from list above, store input into variable
-        #compare from list
-        #or
-        #use user input to index in gesture list
