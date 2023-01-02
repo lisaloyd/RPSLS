@@ -24,8 +24,6 @@ def display_rules(self):
     print("Rock crushes Scissors",'\n' "Scissors cuts Paper", '\n' "Paper covers Rock", '\n' "Rock crushes Lizard", '\n' "Lizard poisons Spock", '\n'
     "Spock smashes Scissors", '\n' "Scissors decapitates Lizard", '\n' "Lizard eats Paper", '\n' "Paper disproves Spock",'\n' "Spock vaporizes Rock")
 
-def display_gesture_chosen(self):
-    pass
     
 def game_phase(self):
     while self.rounds <= 3:
